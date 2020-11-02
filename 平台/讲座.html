@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <title>讲座</title>
+    <link href="../css/normalize.css" rel="stylesheet">
+    <link href="../css/jtwap2.css" rel="stylesheet">
+    <script src="../js/flexible.js"></script>
+</head>
+<body>
+<!--搜索部分-->
+<div id="search-embed" class="search embed" style="display:none;">
+    <a href="#" class="back"></a>
+    <div class="frame">
+        <div class="dropdownlist">
+            <div class="exist">全部</div>
+            <div class="hidden" style="display: none;">
+                <div class="top"></div>
+                <div class="items">
+                    <a href="#">全部</a>
+                    <a href="#">讲座</a>
+                    <a href="#">栏目</a>
+                    <a href="#">主讲</a>
+                </div>
+            </div>
+        </div>
+        <div class="inputArea">
+            <input type="text">
+        </div>
+        <div class="btnArea">
+            <input type="button">
+        </div>
+    </div>
+    <div id="cancel" class="cancel">取消</div>
+
+    <!--以下为历史记录-->
+    <div class="search-history" style="display: block;">
+        <div class="title">最近搜索</div>
+        <div class="history-list">
+            <a href="#">新型政商关系</a>
+            <a href="#">语文</a>
+            <a href="#">人工智能</a>
+            <a href="#">虚拟现实</a>
+            <a href="#">计算机组成原理</a>
+        </div>
+        <div class="clear">清除搜索历史</div>
+    </div>
+</div>
+<!--<div class="shade"></div>-->
+<!--顶部小图标放在此处-->
+<div class="header-icons">
+    <a href="#" class="user-icon0"></a>
+    <a id="search-icon" href="#" class="user-icon3"></a>
+    <script>
+        var search = document.getElementById('search-embed');
+        document.getElementById('search-icon').onclick = function(){
+            search.style.display = 'block';
+        };
+        document.getElementById('cancel').onclick = function(){
+            search.style.display = 'none';
+        }
+    </script>
+    <!--<a href="#" class="user-icon4"></a>-->
+    <div class="user-icon1">
+        <span class="top-triangle"></span>
+                <span class="user-menu">
+                    <a href="#" class="inner-item">我的主页</a>
+                    <a href="#" class="inner-item">我的机构</a>
+                    <a href="#" class="inner-item">我的资料</a>
+                    <a href="#" class="inner-item exit">退出</a>
+                </span>
+    </div>
+</div>
+<div class="header header-institute">
+    <!--<a href="#" class="user-icon1"></a>-->
+    <!--<a href="#" class="user-icon3"></a>-->
+    <!--<a href="#" class="user-icon4"></a>-->
+    <div class="avatar"><img src="../images/w7.jpg"></div>
+    <div class="name"><span class="text">波斯猫小西</span><a href="#" class="icon">&nbsp;</a></div>
+    <nav>
+        <ul class="nav-inner">
+            <li class="rightBorder">
+                <p>
+                    <span>134</span>
+                    <span>讲座</span>
+                </p>
+
+            </li>
+            <li class="rightBorder">
+                <p class="bottomBorder">
+                    <span>5</span>
+                    <span>专题</span>
+                </p>
+
+            </li>
+            <li>
+                <p>
+                    <span>6</span>
+                    <span>主讲</span>
+                </p>
+
+            </li>
+        </ul>
+    </nav>
+</div>
+
+    <div class="sort">
+        <div class="options">
+            <div class="item selected">分类</div>
+            <div class="boundary"></div>
+            <div class="item">类型</div>
+            <div class="boundary"></div>
+            <div class="item">最新</div>
+        </div>
+        <div class="optionList">
+            <a href="#" class="cc ccSelected">生活休闲</a>
+            <a href="#" class="cc">生活休闲 ↓</a>
+            <a href="#" class="cc">生活休闲 ↓</a>
+            <a href="#" class="cc">生活休闲 ↓</a>
+            <a href="#" class="cc">生活休闲 ↓</a>
+            <a href="#" class="cc">生活休闲 ↓</a>
+            <a href="#" class="cc">生活休闲 ↓</a>
+            <a href="#" class="cc">其他</a>
+        </div>
+    </div>
+
+    <div class="list clearfix">
+        <div class="box box-normal">
+            <div class="pic"><img width="100%" src="../images/w7.jpg"></div>
+            <div class="title">新型政商关系两学一做</div>
+            <div class="info">
+                <div class="author">王伟</div>
+                <div class="data1 data1-icon1">365</div>
+                <div class="data2">258</div>
+            </div>
+        </div>
+        <div class="box box-normal">
+            <div class="pic"><img width="100%" src="../images/w7.jpg"></div>
+            <div class="title">新型政商关系两学一做</div>
+            <div class="info">
+                <div class="author">王伟</div>
+                <div class="data1 data1-icon2">365</div>
+                <div class="data2">258</div>
+            </div>
+        </div>
+        <div class="box box-normal">
+            <div class="pic"><img width="100%" src="../images/w7.jpg"></div>
+            <div class="title">新型政商关系两学一做</div>
+            <div class="info">
+                <div class="author">王伟</div>
+                <div class="data1 data1-icon1">365</div>
+                <div class="data2">258</div>
+            </div>
+        </div>
+        <div class="box box-normal">
+            <div class="pic"><img width="100%" src="../images/w7.jpg"></div>
+            <div class="title">新型政商关系两学一做</div>
+            <div class="info">
+                <div class="author">王伟</div>
+                <div class="data1 data1-icon1">365</div>
+                <div class="data2">258</div>
+            </div>
+        </div>
+        <div class="box box-normal">
+            <div class="pic"><img width="100%" src="../images/w7.jpg"></div>
+            <div class="title">新型政商关系两学一做</div>
+            <div class="info">
+                <div class="author">王伟</div>
+                <div class="data1 data1-icon1">365</div>
+                <div class="data2">258</div>
+            </div>
+        </div>
+        <div class="box box-normal">
+            <div class="pic"><img width="100%" src="../images/w7.jpg"></div>
+            <div class="title">新型政商关系两学一做</div>
+            <div class="info">
+                <div class="author">王伟</div>
+                <div class="data1 data1-icon1">365</div>
+                <div class="data2">258</div>
+            </div>
+        </div>
+        <div class="box box-normal">
+            <div class="pic"><img width="100%" src="../images/w7.jpg"></div>
+            <div class="title">新型政商关系两学一做</div>
+            <div class="info">
+                <div class="author">王伟</div>
+                <div class="data1 data1-icon1">365</div>
+                <div class="data2">258</div>
+            </div>
+        </div>
+        <div class="box box-normal">
+            <div class="pic"><img width="100%" src="../images/w7.jpg"></div>
+            <div class="title">新型政商关系两学一做</div>
+            <div class="info">
+                <div class="author">王伟</div>
+                <div class="data1 data1-icon1">365</div>
+                <div class="data2">258</div>
+            </div>
+        </div>
+    </div>
+    <a href="#" class="index-more"><span>加载更多</span></a>
+
+    <div class="footer">©2018大成讲坛</div>
+    <a id="toTop" href="#" class="toTop"></a>
+    <script>
+        window.onscroll = function(){
+            var scrollTop = document.body.scrollTop || document.documentElement.scrollTop;
+            if(scrollTop >= 100) {
+                document.getElementById('toTop').style.display = 'block';
+            }else{
+                document.getElementById('toTop').style.display = 'none';
+            }
+        };
+    </script>
+</body>
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <title>详情页</title>
+    <style type="text/css">
+/*        @media screen and (orientation: portrait) {
+            html,body{
+                width : 100% ;
+                height : 100% ;
+                overflow : hidden;
+            }
+            #print{
+                position : absolute ;
+            }
+        } 
+        @media screen and (orientation: landscape) {
+            html,body{
+                width : 100% ;
+                height : 100% ;
+            } 
+            #print{
+                position : absolute ;
+                top : 0 ; 
+                left : 0 ;
+                width : 100% ;
+                height : 100% ;
+            }
+        }*/
+        html,body{
+            height: 100%;
+        }
+        .swiper-container {
+            width: 100%;
+            height: 100%;
+        }
+    
+    </style>
+    <link href="../css/normalize.css" rel="stylesheet">
+    <link href="../css/jtwap2.css" rel="stylesheet">
+    <link href="../css/swiper.min.css" rel="stylesheet" >
+</head>
+<body>
+    <div class="pptPlay">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="../images/w41.jpg" alt="" class="bg">
+                    <div class="btns clearfix">
+                        <a class="btn btn1" href=""></a>
+                        <a class="btn btn2" href=""></a>
+                        <div class="btn btn3" href=""><input type="text" value="102">/105</div>
+                        <a class="btn btn4" href=""></a>
+                        <a class="btn btn5" href=""></a>
+                        <a class="btn btn6" href=""></a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="../images/w41.jpg" alt="" class="bg">
+                </div>
+                <div class="swiper-slide">
+                    <img src="../images/w41.jpg" alt="" class="bg">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/jquery-1.8.2.min.js"></script>
+    <script src="../js/flexible.js"></script>
+    <script src="../js/swiper.min.js"></script>
+    <script>
+        var mySwiper = new Swiper ('.swiper-container')        
+    </script>
+</body>
+    <!-- 强制横屏 -->
+    <script>
+        // var width = document.documentElement.clientWidth;
+        // var height =  document.documentElement.clientHeight;
+        // if( width < height ){
+        //     $print =  $('#print');
+        //     $print.width(height);
+        //     $print.height(width);
+        //     $print.css('top',  (height-width)/2 );
+        //     $print.css('left',  0-(height-width)/2 );
+        //     $print.css('transform' , 'rotate(90deg)');
+        //     $print.css('transform-origin' , '50% 50%');
+        // }
+    </script>
+    <script>
+        // var evt = "onorientationchange" in window ? "orientationchange" : "resize";
+        // window.addEventListener(evt, function() {
+        //     var width = document.documentElement.clientWidth;
+        //     var height =  document.documentElement.clientHeight;
+        //     $print =  $('#print');
+        //     if( width > height ){
+        //         $print.width(width);
+        //         $print.height(height);
+        //         $print.css('top',  0 );
+        //         $print.css('left',  0 );
+        //         $print.css('transform' , 'none');
+        //         $print.css('transform-origin' , '50% 50%');
+        //     }
+        //     else{
+        //         $print.width(height);
+        //         $print.height(width);
+        //         $print.css('top',  (height-width)/2 );
+        //         $print.css('left',  0-(height-width)/2 );
+        //         $print.css('transform' , 'rotate(90deg)');
+        //         $print.css('transform-origin' , '50% 50%');
+        //     }
+        // }, false);
+    </script>
+</body>
+</html>  

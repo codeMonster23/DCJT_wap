@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <title>讲座</title>
+    <link href="../css/normalize.css" rel="stylesheet">
+    <link href="../css/jtwap2.css" rel="stylesheet">
+    <script src="../js/flexible.js"></script>
+</head>
+<body>
+    <!--<div class="shade"></div>-->
+    <!--顶部小图标放在此处-->
+    <div class="header-icons">
+        <a href="#" class="user-icon0"></a>
+        <div class="user-icon1">
+            <span class="top-triangle"></span>
+                <span class="user-menu">
+                    <a href="#" class="inner-item">我的主页</a>
+                    <a href="#" class="inner-item">我的机构</a>
+                    <a href="#" class="inner-item">我的资料</a>
+                    <a href="#" class="inner-item exit">退出</a>
+                </span>
+        </div>
+    </div>
+    <div class="header">
+        <!--<img src="../images/w7.jpg" class="header-bg-blur">-->
+        <div class="header-bg-blur"></div>
+        <!--<div style="position: absolute; width: 100%; height: 100%; background-color: rgba(0,0,0,.5);"></div>-->
+        <!--<div class="user-icon1">-->
+            <!--<span class="top-triangle"></span>-->
+            <!--<span class="user-menu">-->
+                <!--<a href="#" class="inner-item">我的主页</a>-->
+                <!--<a href="#" class="inner-item">我的机构</a>-->
+                <!--<a href="#" class="inner-item">我的资料</a>-->
+                <!--<a href="#" class="inner-item exit">退出</a>-->
+            <!--</span>-->
+        <!--</div>-->
+        <!--<a href="#" class="user-icon2"></a>-->
+        <div class="avatar"><img src="../images/ww.jpg"><span class="star"></span></div>
+        <div class="name"><span class="text">波斯猫小西</span><a href="#" class="icon">&nbsp;</a></div>
+        <div class="position">西北工业大学教师教学发展中心 |  教授</div>
+        <nav>
+            <ul class="nav-inner">
+                <li class="rightBorder">
+                    <p class="bottomBorder">
+                        <a href="#">
+                            <span>134</span>
+                            <span>讲座</span>
+                        </a>
+
+                    </p>
+
+                </li>
+                <li class="rightBorder">
+                    <p>
+                        <a href="#">
+                            <span>5</span>
+                            <span>栏目</span>
+                        </a>
+                    </p>
+
+                </li>
+                <li>
+                    <p>
+                        <a href="#">
+                            <span>6</span>
+                            <span>动态</span>
+                        </a>
+                    </p>
+
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div class="list clearfix">
+        <div class="box box-normal">
+            <div class="pic"><img width="100%" src="../images/w7.jpg"></div>
+            <div class="title">新型政商关系两学一做新型政商关系两学一做新型政商关系两学一做</div>
+            <div class="info">
+                <div class="author">王伟</div>
+                <div class="data2">258</div>
+                <div class="data1 data1-icon1">365</div>
+            </div>
+            <div class="tag">图文讲座</div>
+        </div>
+        <div class="box box-normal">
+            <div class="pic"><img width="100%" src="../images/w7.jpg"></div>
+            <div class="title">新型政商关系两学一做</div>
+            <div class="info">
+                <div class="author">王伟</div>
+                <div class="data2">258</div>
+                <div class="data1 data1-icon2">365</div>
+            </div>
+            <div class="tag">音频讲座</div>
+        </div>
+        <div class="box box-normal">
+            <div class="pic"><img width="100%" src="../images/w7.jpg"></div>
+            <div class="title">新型政商关系两学一做新型政商关系两学一做新型政商关系两学一做</div>
+            <div class="info">
+                <div class="author">王伟</div>
+                <div class="data2">258</div>
+                <div class="data1 data1-icon1">365</div>
+            </div>
+            <div class="tag">视频讲座</div>
+        </div>
+        <div class="box box-normal">
+            <div class="pic"><img width="100%" src="../images/w7.jpg"></div>
+            <div class="title">新型政商关系两学一做新型政商关系两学一做新型政商关系两学一做</div>
+            <div class="info">
+                <div class="author">王伟</div>
+                <div class="data2">258</div>
+                <div class="data1 data1-icon1">365</div>
+            </div>
+            <div class="tag">图文讲座</div>
+        </div>
+        <div class="box box-normal">
+            <div class="pic"><img width="100%" src="../images/w7.jpg"></div>
+            <div class="title">新型政商关系两学一做新型政商关系两学一做新型政商关系两学一做</div>
+            <div class="info">
+                <div class="author">王伟</div>
+                <div class="data2">258</div>
+                <div class="data1 data1-icon1">365</div>
+            </div>
+            <div class="tag">图文讲座</div>
+        </div>
+        <div class="box box-normal">
+            <div class="pic"><img width="100%" src="../images/w7.jpg"></div>
+            <div class="title">新型政商关系两学一做新型政商关系两学一做新型政商关系两学一做</div>
+            <div class="info">
+                <div class="author">王伟</div>
+                <div class="data2">258</div>
+                <div class="data1 data1-icon1">365</div>
+            </div>
+            <div class="tag">图文讲座</div>
+        </div>
+        <div class="box box-normal">
+            <div class="pic"><img width="100%" src="../images/w7.jpg"></div>
+            <div class="title">新型政商关系两学一做新型政商关系两学一做新型政商关系两学一做</div>
+            <div class="info">
+                <div class="author">王伟</div>
+                <div class="data2">258</div>
+                <div class="data1 data1-icon1">365</div>
+            </div>
+            <div class="tag">图文讲座</div>
+        </div>
+        <div class="box box-normal">
+            <div class="pic"><img width="100%" src="../images/w7.jpg"></div>
+            <div class="title">新型政商关系两学一做新型政商关系两学一做新型政商关系两学一做</div>
+            <div class="info">
+                <div class="author">王伟</div>
+                <div class="data2">258</div>
+                <div class="data1 data1-icon1">365</div>
+            </div>
+            <div class="tag">图文讲座</div>
+        </div>
+    </div>
+    <a href="#" class="index-more"><span>加载更多</span></a>
+
+    <div class="footer">©2018大成讲坛</div>
+    <a id="toTop" href="#" class="toTop"></a>
+    <script>
+        window.onscroll = function(){
+            var scrollTop = document.body.scrollTop || document.documentElement.scrollTop;
+            if(scrollTop >= 100) {
+                document.getElementById('toTop').style.display = 'block';
+            }else{
+                document.getElementById('toTop').style.display = 'none';
+            }
+        };
+    </script>
+</body>
+</html>

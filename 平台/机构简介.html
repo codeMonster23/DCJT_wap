@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <title>讲座</title>
+    <link href="../css/normalize.css" rel="stylesheet">
+    <link href="../css/jtwap2.css" rel="stylesheet">
+    <script src="../js/flexible.js"></script>
+</head>
+<body>
+<!--搜索部分-->
+<div id="search-embed" class="search embed" style="display:none;">
+    <a href="#" class="back"></a>
+    <div class="frame">
+        <div class="dropdownlist">
+            <div class="exist">全部</div>
+            <div class="hidden" style="display: none;">
+                <div class="top"></div>
+                <div class="items">
+                    <a href="#">全部</a>
+                    <a href="#">讲座</a>
+                    <a href="#">栏目</a>
+                    <a href="#">主讲</a>
+                </div>
+            </div>
+        </div>
+        <div class="inputArea">
+            <input type="text">
+        </div>
+        <div class="btnArea">
+            <input type="button">
+        </div>
+    </div>
+    <div id="cancel" class="cancel">取消</div>
+
+    <!--以下为历史记录-->
+    <div class="search-history" style="display: block;">
+        <div class="title">最近搜索</div>
+        <div class="history-list">
+            <a href="#">新型政商关系</a>
+            <a href="#">语文</a>
+            <a href="#">人工智能</a>
+            <a href="#">虚拟现实</a>
+            <a href="#">计算机组成原理</a>
+        </div>
+        <div class="clear">清除搜索历史</div>
+    </div>
+</div>
+<!--<div class="shade"></div>-->
+<!--顶部小图标放在此处-->
+<div class="header-icons">
+    <a href="#" class="user-icon0"></a>
+    <a id="search-icon" href="#" class="user-icon3"></a>
+    <script>
+        var search = document.getElementById('search-embed');
+        document.getElementById('search-icon').onclick = function(){
+            search.style.display = 'block';
+        };
+        document.getElementById('cancel').onclick = function(){
+            search.style.display = 'none';
+        }
+    </script>
+    <!--<a href="#" class="user-icon4"></a>-->
+    <div class="user-icon1">
+        <span class="top-triangle"></span>
+                <span class="user-menu">
+                    <a href="#" class="inner-item">我的主页</a>
+                    <a href="#" class="inner-item">我的机构</a>
+                    <a href="#" class="inner-item">我的资料</a>
+                    <a href="#" class="inner-item exit">退出</a>
+                </span>
+    </div>
+</div>
+<div class="header header-institute">
+    <!--<a href="#" class="user-icon1"></a>-->
+    <!--<a href="#" class="user-icon3"></a>-->
+    <!--<a href="#" class="user-icon4"></a>-->
+    <div class="avatar"><img src="../images/w7.jpg"></div>
+    <div class="name"><span class="text">波斯猫小西</span><a href="#" class="icon">&nbsp;</a></div>
+    <nav>
+        <ul class="nav-inner">
+            <li class="rightBorder">
+                <p>
+                    <span>134</span>
+                    <span>讲座</span>
+                </p>
+
+            </li>
+            <li class="rightBorder">
+                <p class="bottomBorder">
+                    <span>5</span>
+                    <span>专题</span>
+                </p>
+
+            </li>
+            <li>
+                <p>
+                    <span>6</span>
+                    <span>主讲</span>
+                </p>
+
+            </li>
+        </ul>
+    </nav>
+</div>
+<div class="institutionInfo">
+    <div class="title"><span>-</span> 机构简介 <span>-</span></div>
+    <div class="content">站酷,中国人气设计师互动平台，2006年8月创立于北京。深耕设计领域十年，站酷聚集500万+优秀设计师、摄影师、插画师、艺术家、创意人，每日会员。发布原创作品20000幅，覆盖中国300+城市，在设计创意群体中具有强大的影响力与号召力。<br>站酷在创立之初，就以“让设计更有价值”为自身使命，十年来，一直致力于打造以原创设计为核心的“中国设计生态圈”，目前站酷旗下除拥有众所周知的主站社区站酷网之外，还重点打磨了一站式正版视觉内容提供商——站酷海洛、艺术教育平台——站酷高高手。站酷的这一系列生态布局，都是为了给设计创意从业者在学习、展示、交流、就业、交易、创业各个环节提供更好的专业服务，为设计师的成长之路提供立体服务及解决方案。</div>
+</div>
+
+<div class="footer">©2018大成讲坛</div>
+</body>
+</html>

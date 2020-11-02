@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <title>讲座</title>
+    <link href="../css/normalize.css" rel="stylesheet">
+    <link href="../css/jtwap2.css" rel="stylesheet">
+    <script src="../js/flexible.js"></script>
+</head>
+<body>
+    <div class="shade" style="display: none;"></div>
+    <div class="tran-shade"></div>
+    <div class="search">
+        <a href="#" class="back"></a>
+        <div class="frame">
+            <div class="dropdownlist">
+                <div class="exist">全部</div>
+                <div class="hidden">
+                    <div class="top"></div>
+                    <div class="items">
+                        <a href="#">全部</a>
+                        <a href="#">讲座</a>
+                        <a href="#">栏目</a>
+                        <a href="#">主讲</a>
+                    </div>
+                </div>
+            </div>
+            <div class="inputArea">
+                <input type="text">
+            </div>
+            <div class="btnArea">
+                <input type="button">
+            </div>
+        </div>
+        <div class="cancel">取消</div>
+    </div>
+
+    <div class="search-result">与<span>“国家宝藏”</span>相关的共<span>134</span>个结果</div>
+    <div class="sort">
+        <div class="options">
+            <div class="item selected">分类</div>
+            <div class="boundary"></div>
+            <div class="item">类型</div>
+            <div class="boundary"></div>
+            <div class="item">最新</div>
+        </div>
+        <div class="optionList" style="display: none;">
+            <a href="#" class="cc ccSelected">生活休闲</a>
+            <a href="#" class="cc">生活休闲 ↓</a>
+            <a href="#" class="cc">生活休闲 ↓</a>
+            <a href="#" class="cc">生活休闲 ↓</a>
+            <a href="#" class="cc">生活休闲 ↓</a>
+            <a href="#" class="cc">生活休闲 ↓</a>
+            <a href="#" class="cc">生活休闲 ↓</a>`
+            <a href="#" class="cc">其他</a>
+        </div>
+    </div>
+
+    <div class="search-noResult">抱歉！暂时没有检索结果</div>
+
+    <!--<div class="footer">©2018大成讲坛</div>-->
+    <a id="toTop" href="#" class="toTop"></a>
+    <script>
+        window.onscroll = function(){
+            var scrollTop = document.body.scrollTop || document.documentElement.scrollTop;
+            if(scrollTop >= 100) {
+                document.getElementById('toTop').style.display = 'block';
+            }else{
+                document.getElementById('toTop').style.display = 'none';
+            }
+        };
+    </script>
+</body>
+</html>

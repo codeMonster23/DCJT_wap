@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <title>图片浏览</title>
+    <link href="../css/normalize.css" rel="stylesheet">
+    <link href="../lib/swiper/swiper.min.css" rel="stylesheet">
+    <link href="../css/picLecture.css" rel="stylesheet">
+    <script src="../js/jquery-1.8.2.min.js"></script>
+    <script src="../js/flexible.js"></script>
+    <script src="../lib/swiper/swiper.min.js"></script>
+</head>
+<body bgcolor="#1e1e1e" style="position:relative;" id="wrap">
+    <div class="topbar topbar-h">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <div class="swiper-container swiper2">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="../images/picLecture/pic1.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="../images/picLecture/pic2.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="../images/picLecture/pic3.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="../images/picLecture/pic4.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="../images/picLecture/pic5.jpg" alt=""></div>
+        </div>
+        <!-- 分页器 -->
+        <div class="swiper-pagination swiper-pagination-fraction clearfix"></div>
+    </div>
+    <script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: {
+            el: '.swiper-pagination',
+            type: 'fraction',
+            renderFraction: function (currentClass, totalClass) {
+            return '<span class="left desc">《海燕》又名《海燕之歌》，是高尔基创作的一篇著名  散文诗。海燕在暴风雨来临之前，常在海面上飞翔。因此，在俄文里，“海燕”一词含有“暴风雨的预言者”之意。此文按海面景象的发展变化分成三部分，描绘了海燕面临狂风暴雨和波涛翻腾的大海时的壮丽场景。</span>'+'<div class="left num"><span class="' + currentClass + '"></span><span class="' + totalClass + '"></span></div>';
+            }
+        }
+    });
+    </script>
+    <!-- 强制横屏 -->
+    <script>
+        // var width = document.documentElement.clientWidth;
+        // var height =  document.documentElement.clientHeight;
+        // $wrap =  $('#wrap');
+        // if( width < height ){
+        //     $wrap.width(height);
+        //     $wrap.height(width);
+        //     $wrap.css('top',  (height-width)/2 );
+        //     $wrap.css('left',  0-(height-width)/2 );
+        //     $wrap.css('transform' , 'rotate(90deg)');
+        //     $wrap.css('transform-origin' , '50% 50%');
+        // }
+
+        // var evt = "onorientationchange" in window ? "orientationchange" : "resize";
+        // window.addEventListener(evt, function() {
+        //     if( width > height ){
+        //         $wrap.width(width);
+        //         $wrap.height(height);
+        //         $wrap.css('top',  0 );
+        //         $wrap.css('left',  0 );
+        //         $wrap.css('transform' , 'none');
+        //         $wrap.css('transform-origin' , '50% 50%');
+        //     }
+        //     else{
+        //         $wrap.width(height);
+        //         $wrap.height(width);
+        //         $wrap.css('top',  (height-width)/2 );
+        //         $wrap.css('left',  0-(height-width)/2 );
+        //         $wrap.css('transform' , 'rotate(90deg)');
+        //         $wrap.css('transform-origin' , '50% 50%');
+        //     }
+        // }, false);
+        
+        // $('.topbar span:nth-child(4)').click(function(){
+        //     var width = document.documentElement.clientWidth;
+        //     var height =  document.documentElement.clientHeight;
+        //     $wrap =  $('#wrap');
+        //     if( width < height ){
+        //         $wrap.width(height);
+        //         $wrap.height(width);
+        //         $wrap.css('top',  (height-width)/2 );
+        //         $wrap.css('left',  0-(height-width)/2 );
+        //         $wrap.css('transform' , 'rotate(90deg)');
+        //         $wrap.css('transform-origin' , '50% 50%');
+        //         $('.swiper2').css('height','100%')
+        //     }
+        // })
+    </script> 
+</body>
+</html>

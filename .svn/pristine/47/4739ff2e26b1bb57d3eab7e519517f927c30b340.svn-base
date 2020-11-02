@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <title>详情页</title>
+    <link href="../css/normalize.css" rel="stylesheet">
+    <link href="../css/jtwap2.css" rel="stylesheet">
+    <script src="../js/flexible.js"></script>
+    <style type="text/css">
+        .detail-banner .back{
+            position: absolute;
+            left:0;
+            top:0;
+        }
+        .detail-intro{
+            padding-bottom: 0.2rem;
+        }
+        .detail-intro .tit{
+            width: 7.4rem;
+            line-height: 0.6rem;    
+            padding-top: 0.34rem;
+            white-space:normal;
+            font-size: 0.46875rem;
+        }
+        .detail-intro .moreInfo{
+            line-height:1;
+            padding-top: 0.2rem;
+        }
+        .detail-intro .author{
+            float:right;
+            padding-right: 0.3rem;
+        }
+        .detail-intro .author img{
+            display:block;
+            border-radius:50%;
+            width: 0.9rem;
+            height: 0.9rem;
+            margin:0.3rem 0 0.26rem 0.2rem;
+        }
+        .detail-intro .author span{
+            float:none;
+            line-height:0.02rem;
+            font-size:0.3125rem;
+            color: #787878;
+            font-family:"Microsoft Yahei";
+        }
+        .detail-abstract{
+            border-bottom: none;
+        }
+        .detail-sort{
+            border-color:#959595;
+        }
+        .sort .options .selected{
+            background-color: #959595;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <!--<div class="shade"></div>-->
+<!--     <div class="detail-top">
+        <a href="#" class="back"></a>
+        <div class="title">每日深谈，向时代领航者一样思考</div>
+        <div class="share"></div>
+    </div> -->
+    <div class="detail-banner">
+        <a href="#" class="back"></a>
+        <img src="../images/w6.jpg">
+    </div>
+    <div class="detail-intro clearfix">
+        <div class="left tit clearfix">
+            <span>每日深谈，向时代领航者一样思考每日深谈，向时代领航者一样思考</span>
+            <div class="moreInfo clearfix">
+                <div class="time">2017-12-30</div>
+                <div class="d1">25</div>
+                <div class="d2">2345</div> 
+            </div> 
+        </div>
+        <div class="right author">
+            <img src="../images/w7.jpg">
+            <span>和倩倩啊</span>
+        </div>
+    </div>
+    <div class="detail-abstract">
+        <span class="text">有关青春，那段美丽、孤单而璀璨的年华，像漫天花，虽短暂，却是一段绽放的如此灿烂的岁月。在有关青春的日子里，遇见你，青春年少的你</span>
+        <a href="#" class="display-hide"></a>
+    </div>
+    <div class="detail-abstract detail-keywords clearfix">
+        <diw class="keywords"><span>旅游地理</span><span>旅地理</span><span>旅旅游地理</span><span>旅游旅地理</span><span>旅游地理</span></diw>
+        <a href="#" class="display-hide"></a>
+    </div>
+    <div class="sort detail-sort">
+        <div class="options">
+            <div class="item selected">分类</div>
+            <div class="boundary"></div>
+            <div class="item">类型</div>
+            <div class="boundary"></div>
+            <div class="item">最新</div>
+        </div>
+        <div class="optionList" style="display: none;">
+            <a href="#" class="cc ccSelected">生活休闲</a>
+            <a href="#" class="cc">生活休闲 ↓</a>
+            <a href="#" class="cc">生活休闲 ↓</a>
+            <a href="#" class="cc">生活休闲 ↓</a>
+            <a href="#" class="cc">生活休闲 ↓</a>
+            <a href="#" class="cc">生活休闲 ↓</a>
+            <a href="#" class="cc">生活休闲 ↓</a>
+            <a href="#" class="cc">其他</a>
+        </div>
+    </div>
+
+    <div class="detail-article">
+        <h1><span>任务一  认识工业机械手 </span></h1>
+        <a href="#">
+            <div class="box clearfix">
+                <div class="pic"><img src="../images/w8.jpg"></div>
+                <div class="content">
+                    <div class="title">每日深谈，向时代领航者一样思考</div>
+                    <div class="time-author">波斯猫小西&nbsp;&nbsp;&nbsp;&nbsp;2017-12-30</div>
+                </div>
+            </div>
+        </a>
+        <a href="#">
+            <div class="box clearfix">
+                <div class="pic"><img src="../images/w8.jpg"></div>
+                <div class="content">
+                    <div class="title">每日深谈，向时代领航者一样思考</div>
+                    <div class="time-author">波斯猫小西&nbsp;&nbsp;&nbsp;&nbsp;2017-12-30</div>
+                </div>
+            </div>
+        </a>
+        <a href="#">
+            <div class="box clearfix">
+                <div class="pic"><img src="../images/w8.jpg"></div>
+                <div class="content">
+                    <div class="title">每日深谈，向时代领航者一样思考</div>
+                    <div class="time-author">波斯猫小西&nbsp;&nbsp;&nbsp;&nbsp;2017-12-30</div>
+                </div>
+            </div>
+        </a>
+        <h1><span>任务二  认识工业机械手 </span></h1>
+        <a href="#">
+            <div class="box clearfix">
+                <div class="pic"><img src="../images/w8.jpg"></div>
+                <div class="content">
+                    <div class="title">每日深谈，向时代领航者一样思考</div>
+                    <div class="time-author">波斯猫小西&nbsp;&nbsp;&nbsp;&nbsp;2017-12-30</div>
+                </div>
+            </div>
+        </a>
+        <a href="#" class="index-more"><span>加载更多</span></a>
+    </div>
+
+    <div class="detail-zt">
+        <div class="zt">专题推荐</div>
+        <div class="list clearfix list-no-paddingLeft">
+            <div class="box box-view">
+                <div class="pic"><img width="100%" src="../images/w7.jpg"></div>
+                <div class="title">2017-12-29</div>
+                <div class="info">
+                    <div class="author">王伟</div>
+                    <div class="data2">258</div>
+                    <div class="data4">365</div>
+                </div>
+            </div>
+            <div class="box box-view">
+                <div class="pic"><img width="100%" src="../images/w7.jpg"></div>
+                <div class="title">2017-12-29</div>
+                <div class="info">
+                    <div class="author">王伟</div>
+                    <div class="data2">258</div>
+                    <div class="data4">365</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <a href="#" class="index-more more-column"><span>更多栏目</span></a>
+
+    <div class="footer">©2018大成讲坛</div>
+</body>
+</html>
